@@ -8,6 +8,8 @@
 
 <p>All of the integrators used in this projects can approximate the obrit of a predefined star systems, such as star systems that results in a circular orbit or star systems that results in a "infinity" orbit.
   But all of the integrators struggles with star systems that iniated at random. This is due to close encounters happening between the stars that explodes the acceleration. There are ways to prevent this but has not yet implemented in this project.</p>
+
+<p>This project code is based on Hut and Makino's work (2007), which we translated from C into Python while using Numpy to shorten the code.</p>
   
 <h3>Reference</h3>
 Hut, P., & Makino, J. (2007). Moving stars around. The Art of Computational Science.
